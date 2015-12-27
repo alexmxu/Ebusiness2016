@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
 	<title>Ebusiness</title>
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<!--<link rel="stylesheet" href="css/bootstrap.css" type="text/css" /> -->
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-
-	<script type = "text/javascript" src="typed.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
 	<script>
 	    $(function(){
-	        $(".typed").typed({
+	        $(".element").typed({
 	            strings: ["Dirty", "Boring", "Disgusting"],
+	            typeSpeed: 0
 	        });
 	    });
 	</script>
@@ -62,8 +62,8 @@
 		<li><a href="#">Log In</a></li>
 	</ul>
 	<div class = "banner">
-		<div>
-			<h2>Tired of <span class = "typed-strings"></span> Banquet Halls?</h2>
+		<div class = "heading">
+			<h2>Tired of <span class = "element"></span> Banquet Halls?</h2>
 			<button><a href = "soarwe">Yes</a></button>
 		</div>
 	</div>

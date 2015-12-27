@@ -386,9 +386,9 @@
     $.fn.typed.defaults = {
         strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
         // typing speed
-        typeSpeed: 100,
+        typeSpeed: 40,
         // time before typing starts
-        startDelay: 3500,
+        startDelay: 1000,
         // backspacing speed
         backSpeed: 0,
         // shuffle the strings
