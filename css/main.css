@@ -22,7 +22,12 @@ p{
 	margin:0 0 20px;
 	text-align: center;
 }
-
+.nav-bar {
+	z-index: 9;
+}
+.banner {
+	height:80%;
+}
 .heading {
 	text-align: center;
 	display:block;
