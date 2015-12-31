@@ -29,10 +29,17 @@ p{
 	height:760px;
 	background-image: url("http://www.addicted2decorating.com/wp-content/uploads/2013/03/condo-living-room-before-2.png");
 	background-repeat: no-repeat;
+	background-size:cover;
 }
 .heading {
 	text-align: center;
 	display:block;
+}
+
+.heading h1 {
+	padding-top: 300px;
+	font-size: 40px;
+	font-color: white;
 }
 
 .wrap{
